@@ -4,6 +4,8 @@
 */
 
 #pointer-dot {
+    left: 0;
+    top: 0;
     width: 0;
     height: 0;
     border: 2.5px solid white;
@@ -15,6 +17,8 @@
 }
 
 #pointer-ring {
+    left: 0;
+    top: 0;
     width: 0;
     height: 0;
     padding: 15px;
