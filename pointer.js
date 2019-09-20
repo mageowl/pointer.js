@@ -40,9 +40,13 @@ const init_pointer = (options) => {
         let defaultObj = {
             pointerColor: "#750c7e",
             ringSize: 15,
-            ringCickSize: ((options["ringSize"] || 15) - 5),
+            ringClickSize: (options["ringSize"] || 15) - 5,
         }
-        return options[option] || defaultObj[option]
+        if (options[option] == undefined) {
+            return defaultObj[option]
+        } else {
+            return options[option]
+        }
     }
 
     const render = () => {
