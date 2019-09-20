@@ -5,19 +5,23 @@ A JavaScript library for making a cool pointer
 >_Note: You need to import both js and css files._
 
 1. Import js file from 'https://seattleowl.com/pointer.js/pointer.js', like so:
-		
-		<script src="https://seattleowl.com/pointer.js/pointer.js"></script>
+
+	```html
+	<script src="https://seattleowl.com/pointer.js/pointer.js"></script>
+	```
 1. Do the same for the css:
 		
-		<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet"></script>
+	```html
+	<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet"></script>
+	```
 1. Finaly add this javascript code to customize your pointer:
 		
-```javascript
-init_pointer({
-	pointerColor: "purple", // Css color
-	ringSize: 15, // Pixels
-	ringClickSize: 10 // Pixels when clicking
-})
-```
+	```javascript
+	init_pointer({
+		pointerColor: "purple", // Css color
+		ringSize: 15, // Pixels
+		ringClickSize: 10 // Pixels when clicking
+	})
+	```
 		
-You should now have something like the example in /index.html.
+You should now have something like the example in ```/index.html```.
