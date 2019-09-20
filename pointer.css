@@ -34,5 +34,5 @@ html {
 }
 
 a {
-    cursor: none;
+    cursor: none !important;
 }
