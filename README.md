@@ -1,2 +1,2 @@
 # Pointer.js
-A JavaScript library for making a cool pointer
+### A JavaScript library for making a cool pointer
