@@ -58,7 +58,7 @@ const init_pointer = (options) => {
         }
         ring.style.borderColor = getOption("pointerColor")
         if (mouseDown) {
-            ring.style.padding = getOption("ringClickSize") + "10px"
+            ring.style.padding = getOption("ringClickSize") + "px"
         } else {
             ring.style.padding = getOption("ringSize") + "px"
         }
