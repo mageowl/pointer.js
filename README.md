@@ -10,14 +10,14 @@ A JavaScript library for making a cool pointer
 1. Do the same for the css:
 		
 		<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet"></script>
-1. Finaly add this code to customize your pointer:
+1. Finaly add this javascript code to customize your pointer:
 		
-		<script>
-			init_pointer({
-				pointerColor: your_color_here,
-				ringSize: your_size_here,
-				ringClickSize: your_size_on_click_here
-			})
-		</script>
+```javascript
+init_pointer({
+	pointerColor: "purple", // Css color
+	ringSize: 15, // Pixels
+	ringClickSize: 10 // Pixels when clicking
+})
+```
 		
-You should now have the example in ```index.html```.
+You should now have something like the example in /index.html.
