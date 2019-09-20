@@ -14,7 +14,7 @@ A JavaScript library for making a cool pointer
 	```html
 	<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet"></script>
 	```
-1. Finaly add this javascript code to customize your pointer:
+1. Finally add this javascript code to customize your pointer:
 		
 	```javascript
 	init_pointer({
@@ -24,4 +24,4 @@ A JavaScript library for making a cool pointer
 	})
 	```
 		
-You should now have something like the example in ```/index.html```.
+You should now have something like the example in `/index.html`.
