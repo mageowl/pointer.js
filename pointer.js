@@ -1,5 +1,5 @@
 /* 
-    pointer.js wa created by OwL for use on websites, 
+    pointer.js was created by OwL for use on websites, 
      and can be found at https://seattleowl.com/pointer.
 */
 
@@ -20,7 +20,7 @@ const init_pointer = (options) => {
 
     window.onmousemove = (mouse) => {
         mouseX = mouse.clientX
-        mouseY = mouse.clientY - 10
+        mouseY = mouse.clientY
     }
 
     window.onmousedown = (mouse) => {
@@ -40,7 +40,7 @@ const init_pointer = (options) => {
         let defaultObj = {
             pointerColor: "#750c7e",
             ringSize: 15,
-            ringCickSize: ((options.ringSize || 15) - 5),
+            ringCickSize: ((options["ringSize"] || 15) - 5),
         }
         return options[option] || defaultObj[option]
     }
