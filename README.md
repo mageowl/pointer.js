@@ -7,12 +7,12 @@ A JavaScript library for making a cool pointer
 1. Import js file from 'https://seattleowl.com/pointer.js/pointer.js', like so:
 
 	```html
-	<script src="https://seattleowl.com/pointer.js/pointer.js">
+	<script src="https://seattleowl.com/pointer.js/pointer.js"></script>
 	```
 1. Do the same for the css:
 		
 	```html
-	<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet"></script>
+	<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet">
 	```
 1. Finally add this javascript code to customize your pointer:
 		
