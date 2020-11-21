@@ -11,7 +11,7 @@
     border: 2.5px solid white;
     position: fixed;
     border-radius: 4px;
-    z-index: 1;
+    z-index: 101;
     pointer-events: none;
     transition: border-color 0.5s;
 }
@@ -25,7 +25,7 @@
     border: 2px solid #750c7e;
     position: fixed;
     border-radius: 100px;
-    z-index: 2;
+    z-index: 102;
     pointer-events: none;
 }
 
