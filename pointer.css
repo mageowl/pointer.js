@@ -4,16 +4,16 @@
 */
 
 #pointer-dot {
-    left: 0;
-    top: 0;
-    width: 0;
+    left: 2;
+    top: 2;
+    width: 2;
     height: 0;
-    border: 2.5px solid white;
+    border: 2.5px solid blue;
     position: fixed;
     border-radius: 4px;
     z-index: 101;
     pointer-events: none;
-    transition: border-color 0.5s;
+    transition: border-color 0.9s;
 }
 
 #pointer-ring {
